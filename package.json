@@ -1,0 +1,20 @@
+{
+  "name": "nas",
+  "version": "0.0.0",
+  "description": "A tiny Node.js assets server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KidneyFlower/nas.git"
+  },
+  "author": "KidneyFlower",
+  "email": "wildnode@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KidneyFlower/nas/issues"
+  },
+  "homepage": "https://github.com/KidneyFlower/nas#readme"
+}
