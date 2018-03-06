@@ -1,8 +1,11 @@
 {
   "name": "nas",
-  "version": "0.0.0",
+  "version": "0.1.2",
   "description": "A tiny Node.js assets server",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin": {
+    "nas": "bin/nas"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/KidneyFlower/nas/issues"
   },
-  "homepage": "https://github.com/KidneyFlower/nas#readme"
+  "homepage": "https://github.com/KidneyFlower/nas#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "handlebars": "^4.0.11",
+    "nas": "^0.1.1",
+    "yargs": "^11.0.0"
+  }
 }
